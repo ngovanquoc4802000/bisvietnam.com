@@ -1,0 +1,32 @@
+@media only screen and (max-width: 320px) {
+  .messenger-header {
+    font-size: 12px;
+    padding-top: 3px;
+  }
+  .telephone-header {
+    padding: 0 11px;
+    width: 100%;
+    position: relative;
+  }
+  .telephone-header span {
+    font-size: 11px;
+    padding-left: 0;
+    margin-left: 17px;
+    position: absolute;
+    padding-top: 4px;
+  }
+  .logo-header {
+    display: none;
+  }
+  .footer-social {
+    padding-left: unset;
+  }
+}
+@media only screen and(max-width: 739px) and (min-width: 1023px) {
+  
+}
+@media only screen and (max-width: 1024px) {
+  .carousel-item img {
+    height: 21rem!important;
+  }
+}
