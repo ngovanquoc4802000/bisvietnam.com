@@ -523,9 +523,9 @@ body {
   margin-left: 6rem;
 }
 /* Intro Home */
-.line-introduce .line {
+.line-introduce {
   width: 10rem;
-  height: 0.1rem;
+  height: 0.2rem;
   background: #fff;
   margin-top: 1.5rem;
 }

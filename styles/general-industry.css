@@ -250,7 +250,7 @@ body {
   color: #fff;
   top: 8rem;
   text-align: center;
-  left: 6.2rem;
+  left: 12.2rem;
 }
 .product-machineAdd {
   color: var(--danger) !important;
@@ -916,7 +916,7 @@ footer hr {
 }
 
 .footer-bottom p {
-  text-align: center;
+  text-align: right;
 }
 .footer-bottom {
   margin-top: 30px;
