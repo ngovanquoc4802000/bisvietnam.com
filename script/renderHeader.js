@@ -1,15 +1,4 @@
 (function () {
-  //Top-Header
-  function initTopHeader() {
-  }
-  function templateTopHeader() {
-   
-  }
-  function firstTemplate() {
-  }
-  function secondTemplate() {
-  }
-
   //CustomerService
   initCustomerService();
   function initCustomerService() {
@@ -71,17 +60,12 @@
    </div>s
     `;
   }
-  function initNavbar() {}
-  function initNavbarMobile() {}
-
-  function initNavbarDesktop() {}
-  
   initfooter();
   function initfooter() {
     footer();
+    toggle();
   }
   //Footer
-  
   function footer() {
     const footerOne = fistFooter();
     const footerTwo = secondFooter();
@@ -174,4 +158,19 @@
             </div>
     `;
   }
+  function toggle() {
+    const toggleSpan = document.querySelector(".toggle-header span");
+    const headerToggle = document.querySelector(".header-toggle");
+    const menu = document.querySelector(".icon-menu");
+    console.log(menu);
+    console.log(headerToggle);
+
+    menu.addEventListener("click", function () {
+      headerToggle.classList.toggle("show-siderbar");
+    });
+
+    toggleSpan.addEventListener("click", function () {
+      headerToggle.classList.remove("show-siderbar");
+    });
+  } 
 })();

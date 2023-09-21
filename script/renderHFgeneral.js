@@ -259,7 +259,6 @@
      </div>s
       `;
   }
-
   //Footer
   initfooter();
   function initfooter() {
