@@ -278,7 +278,7 @@
     if (!footerfll) return;
   }
   function fistFooter() {
-    const imglogo = "assets/general/logo.png";
+    const imglogo = "../../../assets/general/logo.png";
     const telephone = [
       "+84-913 476379 (Mr. Hoàng)",
       "+84-909 988 041 (Ms. Duyên)",
