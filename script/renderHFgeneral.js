@@ -25,8 +25,8 @@
          </div>
        `;
     const topHeader = document.querySelector(".header");
-    topHeader.innerHTML = templateHeader;
     if (!topHeader) return;
+    topHeader.innerHTML = templateHeader;
   }
   function firstHeader() {
     const telephone = "84-909 988 041";
@@ -213,8 +213,8 @@
          </div>
       `;
     const customer = document.querySelector(".customer-service");
-    customer.innerHTML = container;
     if (!customer) return;
+    customer.innerHTML = container;
   }
   function customerfist() {
     const product = "product";
@@ -274,8 +274,8 @@
          </div>
        `;
     const footerfll = document.querySelector(".footerFll");
-    footerfll.innerHTML = templateFooter;
     if (!footerfll) return;
+    footerfll.innerHTML = templateFooter;
   }
   function fistFooter() {
     const imglogo = "../../../assets/general/logo.png";
