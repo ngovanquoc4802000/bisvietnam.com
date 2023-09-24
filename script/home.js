@@ -16,6 +16,7 @@
       description: "",
     },
   ];
+  initCarouselInner()
   function initCarouselInner() {
 
     // loop forEach

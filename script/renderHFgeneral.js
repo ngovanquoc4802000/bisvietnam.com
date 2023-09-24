@@ -5,6 +5,21 @@
     templateTopHeader();
     toggle();
   }
+  function toggle() {
+    const toggleSpan = document.querySelector(".toggle-header span");
+    const headerToggle = document.querySelector(".header-toggle");
+    const menu = document.querySelector(".icon-menu");
+    console.log(menu);
+    console.log(headerToggle);
+
+    menu.addEventListener("click", function () {
+      headerToggle.classList.toggle("show-siderbar");
+    });
+
+    toggleSpan.addEventListener("click", function () {
+      headerToggle.classList.remove("show-siderbar");
+    });
+  } 
   function templateTopHeader() {
     const headerOne = firstHeader();
     const headerTwo = secondHeader();
@@ -182,22 +197,6 @@
     </div>
     `;
   }
-  //header-toggle
-  function toggle() {
-    const toggleSpan = document.querySelector(".toggle-header span");
-    const headerToggle = document.querySelector(".header-toggle");
-    const menu = document.querySelector(".icon-menu");
-    console.log(menu);
-    console.log(headerToggle);
-
-    menu.addEventListener("click", function () {
-      headerToggle.classList.toggle("show-siderbar");
-    });
-
-    toggleSpan.addEventListener("click", function () {
-      headerToggle.classList.remove("show-siderbar");
-    });
-  } 
   //CustomerService
   initCustomerService();
   function initCustomerService() {
@@ -304,12 +303,12 @@
                    <h4>BIS</h4>
                </div>
                <ul>
-                   <li><a href="home.html">Home</a></li>
-                   <li><a href="about-us.html">About Us</a></li>
-                   <li><a href="product.html">Products</a></li>
-                   <li><a href="service.html">Services</a></li>
-                   <li><a href="News.html">News</a></li>
-                   <li><a href="contact-us.html">Contact Us</a></li>
+                   <li><a href="../../../home.html">Home</a></li>
+                   <li><a href="../../../about-us.html">About Us</a></li>
+                   <li><a href="../../../product.html">Products</a></li>
+                   <li><a href="../../../service.html">Services</a></li>
+                   <li><a href="../../../News.html">News</a></li>
+                   <li><a href="../../../contact-us.html">Contact Us</a></li>
                </ul>
            </div>
            <div class="col-md-6 col-lg-3 page-more-info">
@@ -317,8 +316,8 @@
                    <h4>PRODUCTS</h4>
                </div>
                <ul>
-                   <li><a href="products/2/general/general-industry.html">GENERAL INDUSTRY</a></li>
-                   <li><a href="products/2/textile/textile&Grament.html">TEXTILE & GARMENT</a></li>
+                   <li><a href="general-industry.html">GENERAL INDUSTRY</a></li>
+                   <li><a href="../textile/textile&Grament.html">TEXTILE & GARMENT</a></li>
                </ul>
            </div>
            <div class="col-md-6 col-lg-4 page-more-info">
@@ -356,5 +355,6 @@
               </div>
       `;
   }
+  
 })();
 // RENDER HEADER FOOTER GENERAL JAVASCRIPT

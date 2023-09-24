@@ -304,12 +304,12 @@
                    <h4>BIS</h4>
                </div>
                <ul>
-                   <li><a href="home.html">Home</a></li>
-                   <li><a href="about-us.html">About Us</a></li>
-                   <li><a href="product.html">Products</a></li>
-                   <li><a href="service.html">Services</a></li>
-                   <li><a href="News.html">News</a></li>
-                   <li><a href="contact-us.html">Contact Us</a></li>
+                   <li><a href="../../../home.html">Home</a></li>
+                   <li><a href="../../../about-us.html">About Us</a></li>
+                   <li><a href="../../../product.html">Products</a></li>
+                   <li><a href="../../../service.html">Services</a></li>
+                   <li><a href="../../../News.html">News</a></li>
+                   <li><a href="../../../contact-us.html">Contact Us</a></li>
                </ul>
            </div>
            <div class="col-md-6 col-lg-3 page-more-info">
@@ -317,8 +317,8 @@
                    <h4>PRODUCTS</h4>
                </div>
                <ul>
-                   <li><a href="products/2/general/general-industry.html">GENERAL INDUSTRY</a></li>
-                   <li><a href="products/2/textile/textile&Grament.html">TEXTILE & GARMENT</a></li>
+                   <li><a href="../general/general-industry.html">GENERAL INDUSTRY</a></li>
+                   <li><a href="/textile&Grament.html">TEXTILE & GARMENT</a></li>
                </ul>
            </div>
            <div class="col-md-6 col-lg-4 page-more-info">

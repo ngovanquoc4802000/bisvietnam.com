@@ -68,17 +68,17 @@
                <div class="product-header">
                    <ul class="product-list">
                        <li class="product-header">
-                           <a href="../../../home.html" class="product-link">
+                           <a href="../../home.html" class="product-link">
                                HOME
                            </a>
                        </li>
                        <li class="product-header">
-                           <a href="../../../about-us.html" class="product-link">
+                           <a href="../../about-us.html" class="product-link">
                                ABOUTS US
                            </a>
                        </li>
                        <li class="product-header">
-                           <a href="../../../product.html" class="product-link active">
+                           <a href="../../product.html" class="product-link active">
                                PRODUCTS
                                <i class="fas fa-chevron-down"></i>
                            </a>
@@ -86,51 +86,51 @@
                            <div class="product-position ps-0">
                                <ul class="product-list-position p-0">
                                    <li class="product-item-position">
-                                       <a href="../general/general-industry.html"
+                                       <a href="general/general-industry.html"
                                            class="product-link-position">GENERAL INDUSTRY
                                            <ul class="product-device p-0">
                                                <li class="product-item-device">
-                                                   <a href="../general/equiment.html"
+                                                   <a href="general/equiment.html"
                                                        class="product-link-device">EQUIMENT</a>
                                                </li>
                                                <li class="product-item-device">
                                                    <a class="product-link-device"
-                                                       href="../general/machine.html">MACHINES</a>
+                                                       href="general/machine.html">MACHINES</a>
                                                </li>
                                            </ul>
                                        </a>
                                    </li>
                                    <li class="product-item-position">
-                                       <a class="product-link-position" href="textile&Grament.html">TEXTILE
+                                       <a class="product-link-position" href="textile/textile&Grament.html">TEXTILE
                                            & GARMENT
                                            <ul class="product-garment p-0">
                                                <li class="product-item-device">
                                                    <a class="product-link-device"
-                                                       href="lightbooths.html">LIGHT
+                                                       href="textile/lightbooths.html">LIGHT
                                                        BOOTHS</a>
                                                </li>
                                                <li class="product-item-device">
                                                    <a class="product-link-device"
-                                                       href="colorReaders.html">COLOR
+                                                       href="textile/colorReaders.html">COLOR
                                                        READERS</a>
                                                </li>
                                                <li class="product-item-device">
                                                    <a class="product-link-device"
-                                                       href="texting-instrument.html">TEXTING
+                                                       href="textile/texting-instrument.html">TEXTING
                                                        INSTRUMENTS</a>
                                                </li>
                                                <li class="product-item-device">
                                                    <a class="product-link-device"
-                                                       href="text-marterial.html">TEXT
+                                                       href="textile/text-marterial.html">TEXT
                                                        MATERIALS</a>
                                                </li>
                                                <li class="product-item-device">
                                                    <a class="product-link-device"
-                                                       href="light.html">LIGHT</a>
+                                                       href="textile/light.html">LIGHT</a>
                                                </li>
                                                <li class="product-item-device">
                                                    <a class="product-link-device"
-                                                       href="others.html">OTHERS</a>
+                                                       href="textile/others.html">OTHERS</a>
                                                </li>
                                            </ul>
                                        </a>
@@ -140,17 +140,17 @@
                            <!-- thêm position -->
                        </li>
                        <li class="product-header">
-                           <a href="../../../service.html" class="product-link">
+                           <a href="../../service.html" class="product-link">
                                SERVICES
                            </a>
                        </li>
                        <li class="product-header">
-                           <a href="../../../News.html" class="product-link">
+                           <a href="../../News.html" class="product-link">
                                NEWS
                            </a>
                        </li>
                        <li class="product-header">
-                           <a href="../../../contact-us.html" class="product-link">
+                           <a href="../../contact-us.html" class="product-link">
                                CONTACTS
                            </a>
                        </li>
@@ -252,7 +252,7 @@
                   training and support, and we have a team of service engineers who will undertake service
                   and
                   calibration support.</p>
-              <button class="btn btn-info p-3"><a href="service.html"
+              <button class="btn btn-info p-3"><a href="../../service.html"
                       class="text-white text-decoration-none">${button}</a></button>
           </div>
         </div>
@@ -304,12 +304,12 @@
                    <h4>BIS</h4>
                </div>
                <ul>
-                   <li><a href="home.html">Home</a></li>
-                   <li><a href="about-us.html">About Us</a></li>
-                   <li><a href="product.html">Products</a></li>
-                   <li><a href="service.html">Services</a></li>
-                   <li><a href="News.html">News</a></li>
-                   <li><a href="contact-us.html">Contact Us</a></li>
+                   <li><a href="../../home.html">Home</a></li>
+                   <li><a href="../../about-us.html">About Us</a></li>
+                   <li><a href="../../product.html">Products</a></li>
+                   <li><a href="../../service.html">Services</a></li>
+                   <li><a href="../../News.html">News</a></li>
+                   <li><a href="../../contact-us.html">Contact Us</a></li>
                </ul>
            </div>
            <div class="col-md-6 col-lg-3 page-more-info">
@@ -317,17 +317,17 @@
                    <h4>PRODUCTS</h4>
                </div>
                <ul>
-                   <li><a href="products/2/general/general-industry.html">GENERAL INDUSTRY</a></li>
-                   <li><a href="products/2/textile/textile&Grament.html">TEXTILE & GARMENT</a></li>
+                   <li><a href="general/general-industry.html">GENERAL INDUSTRY</a></li>
+                   <li><a href="textile/textile&Grament.html">TEXTILE & GARMENT</a></li>
                </ul>
            </div>
            <div class="col-md-6 col-lg-4 page-more-info">
                <div class="footer-title">
                    <h4>CONTACT INFO</h4>
                    <ul class="footer-social">
-                       <li><a href="products/2/brand.html" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                       <li><a href="products/2/brand.html" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                       <li><a href="products/2/brand.html" target="_blank"><i class="fab fa-google-plus"></i></a></li>
+                       <li><a href="brand.html" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                       <li><a href="brand.html" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                       <li><a href="brand.html" target="_blank"><i class="fab fa-google-plus"></i></a></li>
   
                    </ul>
                </div>

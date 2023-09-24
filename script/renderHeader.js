@@ -64,7 +64,6 @@
   initfooter();
   function initfooter() {
     footer();
-    toggle();
   }
   //Footer
   function footer() {
@@ -159,6 +158,7 @@
             </div>
     `;
   }
+  toggle();
   function toggle() {
     const toggleSpan = document.querySelector(".toggle-header span");
     const headerToggle = document.querySelector(".header-toggle");
