@@ -1,5 +1,5 @@
 (function () {
-  
+
   //CustomerService
   initCustomerService();
   function initCustomerService() {
@@ -76,9 +76,9 @@
           ${footerTwo}
        </div>
      `;
-     const footerfll = document.querySelector(".footerFll");
-     footerfll.innerHTML = templateFooter;
-     if(!footerfll) return;
+    const footerfll = document.querySelector(".footerFll");
+    footerfll.innerHTML = templateFooter;
+    if (!footerfll) return;
   }
   function fistFooter() {
     const imglogo = "assets/general/logo.png";
@@ -87,7 +87,7 @@
       "+84-909 988 041 (Ms. Duyên)",
       "Professional supplier of equipment supporting Textile & Garment industry and other industry solutions.",
     ];
-    return`
+    return `
      <div class="footer-top">
      <div class="row">
          <div class="col-md-6 col-lg-3 about-footer">
@@ -166,12 +166,14 @@
     console.log(menu);
     console.log(headerToggle);
 
-    menu.addEventListener("click", function () {
-      headerToggle.classList.toggle("show-siderbar");
-    });
+    if (menu)
+      menu.addEventListener("click", function () {
+        headerToggle.classList.toggle("show-siderbar");
+      });
 
-    toggleSpan.addEventListener("click", function () {
-      headerToggle.classList.remove("show-siderbar");
-    });
-  } 
+    if (headerToggle)
+      toggleSpan.addEventListener("click", function () {
+        headerToggle.classList.remove("show-siderbar");
+      });
+  }
 })();
